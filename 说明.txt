@@ -1,0 +1,4 @@
+1.80%的图片通过base64转码为 不用请求的字符串形式的图片
+2.js 压缩合并
+3 css 压缩合并
+注: 由于app.js 中涉及后端逻辑 待后端处理完后 如本地有webpack,gulp等前端自动化工具 可在本地压缩 如没有 可在线压缩 网址(http://tool.oschina.net/jscompress/)

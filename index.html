@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <title>北京移动6.1儿童节</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <script src='./js/vendor.min.js'></script>
+    <script src='./js/imgBase64.min.js'></script>
+</head>
+<body>
+    <!-- 加载页 -->
+    <div class="page page-loading">
+        <div class="loading">
+            <div class="loading-animate"></div>
+            <p class='progress'>0%</p>
+        </div>
+    </div>
+    <!-- 答题首页 -->
+    <div class="page page-index hide">
+        <div class="logo">
+            <img src="" imgBase64Id = 'logo' class='base64' alt="">
+        </div>
+        <div class="slogan">
+            <img class='slogan-img base64' imgBase64Id = 'indexSlogan' src="" alt="">
+            <b class='no'></b>
+            <img class='m1 base64' imgBase64Id = 'my' src="" alt="">
+            <img class='m2 base64' imgBase64Id = 'mb' src="" alt="">
+        </div>
+        <div class="footer">
+            <img class='p base64' imgBase64Id = 'indexFooter' src="" alt="">
+            <div class="btn-area">
+                <a href="javascript:;" class='btn btn-start'>开始按钮</a>
+            </div>
+        </div>
+        <a href="javascript:;" class='btn btn-rule'>活动规则</a>
+    </div>
+    <!-- 答题页 -->
+    <div class="page page-question hide">
+        <div class="question-wrapper">
+            <!-- 第一题 俄罗斯套娃 -->
+            <div class="q q1">
+                <div class="q-title">
+                    <div class="line per5"></div>
+                    <div class="line per20"></div>
+                    <h3>你知道这个玩具叫什么吗?</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="q-show">
+                    <div class="q-show-normal show-box hide">
+                        <img class='pb s base64' imgBase64Id='q1ns'  src="" alt="">
+                        <img class='pb m base64' imgBase64Id='q1nm' src="" alt="">
+                        <img class='pb b base64' imgBase64Id='q1nb' src="" alt="">
+                    </div>
+                    <div class="q-show-success show-box hide">
+                        <img class='pb s base64 ani' imgBase64Id='q1ss'  src="" alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay="0s">
+                        <img class='pb m base64 ani' imgBase64Id='q1sm' src="" alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay="0s">
+                        <img class='pb b base64 ani' imgBase64Id='q1sb' src="" alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay="0s">
+                        <b class='star star1'>星星</b>
+                        <b class='star star2'>星星</b>
+                        <b class='star star3'>星星</b>
+                        <b class='star star4'>星星</b>
+                        <div class="think ani" animate-effect="fadeInLeft" animate-duration=".6s" animate-delay="1s">
+                            <p>666~<br>你真是个有童年的孩子</p>
+                        </div>
+                    </div>
+                    <div class="q-show-error show-box">
+                        <img class='pb s ani base64' imgBase64Id='q1es'  src="" alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay="0s" >
+                        <img class='pb m ani base64' imgBase64Id='q1em' src="" alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay="0s">
+                        <img class='pb b ani base64' imgBase64Id='q1eb' src="" alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay="0s">
+                        <b class='star star1'>星星</b>
+                        <b class='star star2'>星星</b>
+                        <b class='star star3'>星星</b>
+                        <b class='star star4'>星星</b>
+                        <b class="cloud cloud1 ani" animate-effect="fadeIn" animate-duration=".6s" animate-delay=".6s">乌云</b>
+                        <b class="cloud cloud2 ani" animate-effect="fadeIn" animate-duration=".6s" animate-delay=".6s">乌云</b>
+                        <b class="cloud cloud3 ani" animate-effect="fadeIn" animate-duration=".6s" animate-delay=".6s">乌云</b>
+                        <div class="think ani" animate-effect="fadeInLeft" animate-duration=".6s" animate-delay="1.5s">
+                            <p>太嫩了~<br>回家问问家长去吧。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-options">
+                    <ul>
+                        <li>
+                            <label for="">A</label>
+                            <span>套娃</span>
+                        </li>
+                        <li>
+                            <label for="">B</label>
+                            <span>不倒翁</span>
+                        </li>
+                        <li>
+                            <label for="">C</label>
+                            <span>中国娃娃</span>
+                        </li>
+                        <li>
+                            <label for="">D</label>
+                            <span>胖娃</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 第二题 psp -->
+            <div class="q q2 hide">
+                <div class="q-title">
+                    <div class="line per5"></div>
+                    <div class="line per20"></div>
+                    <h3>你知道这个玩具叫什么吗?</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="q-show">
+                    <div class="q-show-normal show-box hide">
+                        <div class="psp">
+                            <div class="box">
+                                <img imgBase64Id='camera' src="" alt="" class="pb icon camera base64">
+                                <img imgBase64Id='audio' src="" alt="" class="pb icon audio base64">
+                                <img imgBase64Id='video' src="" alt="" class="pb icon video base64">
+                                <img imgBase64Id='gamepad' src="" alt="" class="pb icon gamepad base64">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-success show-box hide">
+                        <div class="psp">
+                            <div class="box">
+                                <img class='pb mla ani base64' imgBase64Id='mla'  src="" alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay="0s">
+                                <b class='star star1'>星星</b>
+                                <b class='star star2'>星星</b>
+                                <b class='star star3'>星星</b>
+                                <div class="think ani" animate-effect="fadeInUp" animate-duration="1s" animate-delay=".6s">
+                                    <p>你一定是个土豪！</p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-error show-box">
+                        <div class="psp">
+                            <div class="box">
+                                <div class="game-over ani"  animate-effect="zoomIn" animate-duration="1s" animate-delay="0s">GAME OVER</div>
+                                <div class="think ani" animate-effect="fadeInUp" animate-duration="1s" animate-delay=".6s">
+                                    <p>我赌两毛钱你一定没有童年</p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-options">
+                    <ul>
+                        <li>
+                            <label for="">A</label>
+                            <span>PS2</span>
+                        </li>
+                        <li>
+                            <label for="">B</label>
+                            <span>PSP</span>
+                        </li>
+                        <li>
+                            <label for="">C</label>
+                            <span>iPad</span>
+                        </li>
+                        <li>
+                            <label for="">D</label>
+                            <span>GAME BOY</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 第三题 电视 -->
+            <div class="q q3 hide">
+                <div class="q-title">
+                    <div class="line per5"></div>
+                    <div class="line per20"></div>
+                    <h3>下图出现在电视上的时间是每周几?</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="q-show">
+                    <div class="q-show-normal show-box hide">
+                        <div class="tv">
+                            <div class="box">
+                                <img class='tv-img base64' imgBase64Id='tvn'  src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-success show-box hide">
+                        <div class="tv">
+                            <div class="box">
+                                <b class="star star1">星星</b>
+                                <b class="star star2">星星</b>
+                                <b class="star star3">星星</b>
+                                <img imgBase64Id='he' src="" alt="" class="pb he ani base64"  animate-effect="fadeInLeft" animate-duration="1s" animate-delay=".8s">
+                                <img class='tv-img ani base64' imgBase64Id='tvs' src="" alt=""  animate-effect="zoomIn" animate-duration="1s" animate-delay="0">
+                                <div class="think ani"  animate-effect="fadeInDown" animate-duration="1s" animate-delay="1.2s">
+                                    <p>哈哈哈！<br>答对了</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-error show-box">
+                        <div class="tv">
+                            <div class="box">
+                                <img class='tv-img ani base64' imgBase64Id='tve' src="" alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay="0">
+                                <div class="think error ani" animate-effect="fadeInDown" animate-duration="1s" animate-delay="1s">
+                                    <p>OMG你居然忘了<br>黑色星期二！</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-options">
+                    <ul>
+                        <li>
+                            <label for="">A</label>
+                            <span>周一</span>
+                        </li>
+                        <li>
+                            <label for="">B</label>
+                            <span>周二</span>
+                        </li>
+                        <li>
+                            <label for="">C</label>
+                            <span>周三</span>
+                        </li>
+                        <li>
+                            <label for="">D</label>
+                            <span>周四</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 第四题 智取威虎山-->
+            <div class="q q4 hide">
+                <div class="q-title">
+                    <div class="line per5"></div>
+                    <div class="line per20"></div>
+                    <h3>暗语“怎么又白啦?”的下半句是?</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="q-show">
+                    <div class="q-show-normal show-box show">
+                        <div class="wehu">
+                            <div class="box">
+                                <img style='width:100%;' class='people-img base64' imgBase64Id='q4n' src="" alt="">
+                                <img imgBase64Id='wet' src="" alt="" class="pb wehu-txt base64">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-success show-box hide">
+                        <div class="wehu">
+                            <div class="box">
+                                <b class="star star1">星星</b>
+                                <b class="star star2">星星</b>
+                                <b class="star star3">星星</b>
+                                <img style='width:100%;' imgBase64Id='q4s'  class='people-img ani base64' src="" alt=""  alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay=".1s">
+                                <div class="think ani" animate-effect="fadeInRight" animate-duration="1s" animate-delay="1s">
+                                    <p>打入敌人内部成功！</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-error show-box hide">
+                        <div class="wehu">
+                            <div class="box">
+                                <img src="" imgBase64Id='cloud'  alt="" class="pb cloud ani base64" animate-effect="fadeInDown" animate-duration="1s" animate-delay="1s">
+                                <img class='people-img pb ani base64' imgBase64Id='q4e'  src="" alt="" animate-effect="zoomIn" animate-duration="1s" animate-delay=".1s">
+                                <div class="think error ani" animate-effect="fadeInLeft" animate-duration="1s" animate-delay="1.2s">
+                                    <p>他是内奸！干掉他</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-options">
+                    <ul>
+                        <li>
+                            <label for="">A</label>
+                            <span>雪下的太大</span>
+                        </li>
+                        <li>
+                            <label for="">B</label>
+                            <span>天王盖地虎</span>
+                        </li>
+                        <li>
+                            <label for="">C</label>
+                            <span>谁用谁知道</span>
+                        </li>
+                        <li>
+                            <label for="">D</label>
+                            <span>防冷涂的蜡</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 第五题 小飞机 -->
+            <div class="q q5 hide">
+                <div class="q-title">
+                    <div class="line per5"></div>
+                    <div class="line per20"></div>
+                    <h3>丢飞机前“哈”口气是为了?</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="q-show">
+                    <div class="q-show-normal show-box hide">
+                        <div class="plane">
+                            <div class="box">
+                                <img class='plane-img base64' imgBase64Id='q5n' src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-success show-box">
+                        <div class="plane">
+                            <div class="box">
+                                <b class="star star1">星星</b>
+                                <b class="star star2">星星</b>
+                                <b class="star star3">星星</b>
+                                <img class='plane-img ani base64' animate-effect="fadeInRight" animate-duration="1s" animate-delay=".1s"  imgBase64Id='plane' src="" alt="">
+                                <div class="think ani" animate-effect="fadeInDown" animate-duration="1s" animate-delay="1.1s">
+                                    <p>“哈”一口气<br>真能飞的更远哦！</p>
+                                    <b class='cir ani' animate-effect="fadeInUp" animate-duration="1s" animate-delay="1.1s"></b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-error show-box hide">
+                        <div class="plane">
+                            <div class="box">
+                                <img class='plane-img ani pb base64' animate-effect="fadeInRight" animate-duration="1s" animate-delay="0.3s" imgBase64Id='q5e' src="" alt="">
+                                <div class="think error ani"  animate-effect="fadeInDown" animate-duration="1s" animate-delay="1.1s">
+                                    <p>连原因都不知道<br>还敢“哈”?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-options">
+                    <ul>
+                        <li>
+                            <label for="">A</label>
+                            <span>留下气味</span>
+                        </li>
+                        <li>
+                            <label for="">B</label>
+                            <span>气势压到</span>
+                        </li>
+                        <li>
+                            <label for="">C</label>
+                            <span>能飞得更远</span>
+                        </li>
+                        <li>
+                            <label for="">D</label>
+                            <span>给飞机加油</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 第六题 拍洋画 -->
+            <div class="q q6 hide">
+                <div class="q-title">
+                    <div class="line per5"></div>
+                    <div class="line per20"></div>
+                    <h3>拍洋画怎样才算赢?</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="q-show">
+                    <div class="q-show-normal show-box">
+                        <div class="yh">
+                            <div class="box ani" animate-effect="fadeIn" animate-duration="2s" animate-delay="0.3s">
+                                <img class='yh-img base64' imgBase64Id='q6n'  src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-success show-box hide">
+                        <div class="yh">
+                            <div class="box">
+                                <b class="star star1">星星</b>
+                                <b class="star star2">星星</b>
+                                <div class="yh-people">
+                                   <img class='yh-img ani base64' animate-effect="bounceIn" animate-duration="1s" animate-delay="0.3s" imgBase64Id='q6s' src="" alt="">
+                                   <b class='ani' animate-effect="fadeInUp" animate-duration=".8s" animate-delay="0.3s">椭圆</b>
+                                </div>                                
+                                <div class="think ani" animate-effect="fadeInDown" animate-duration="1s" animate-delay="1.3s">
+                                    <p>阁下莫非就是传说中的高手?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-error show-box hide">
+                        <div class="yh">
+                            <div class="box">
+                                <div class="yh-people">
+                                   <img class='yh-img ani base64' animate-effect="bounceIn" animate-duration="1s" animate-delay="0.3s" imgBase64Id='q6e'  src="" alt="">
+                                   <img class="pb ani base64" animate-effect="fadeInDown" animate-duration=".8s" animate-delay="0.8s" imgBase64Id='q6et' src='' alt="">
+                                   <b class='ani' animate-effect="fadeInUp" animate-duration=".8s" animate-delay="0.3s">椭圆</b> 
+                                </div> 
+                                <div class="think error ani" animate-effect="fadeInDown" animate-duration="1s" animate-delay="1.6s" >
+                                    <p>别做梦了，你咋不上天呢！</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-options">
+                    <ul>
+                        <li>
+                            <label for="">A</label>
+                            <span>看谁的力气大</span>
+                        </li>
+                        <li>
+                            <label for="">B</label>
+                            <span>看谁能把洋画拍翻面</span>
+                        </li>
+                        <li>
+                            <label for="">C</label>
+                            <span>看谁拍的声音响</span>
+                        </li>
+                        <li>
+                            <label for="">D</label>
+                            <span>主要看气势</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 第七题 动漫 -->
+            <div class="q q7 hide">
+                <div class="q-title">
+                    <div class="line per5"></div>
+                    <div class="line per20"></div>
+                    <h3>离现在最近的动漫是哪一部?</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="q-show">
+                    <div class="q-show-normal show-box">
+                        <div class="dm">
+                            <div class="box ani" animate-effect="fadeIn" animate-duration="2s" animate-delay="0.3s">
+                                <img class='dm-img base64' imgBase64Id='q7n' src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-success show-box hide">
+                        <div class="dm">
+                            <div class="box">
+                                <b class="star star1">星星</b>
+                                <b class="star star2">星星</b>
+                                <img class='dm-img ani base64' imgBase64Id='q7s'  src="" alt="" animate-effect="fadeIn" animate-duration="1s" animate-delay="0s"> 
+                                <div class="think success ani" animate-effect="fadeInDown" animate-duration="1s" animate-delay="0.8s" >
+                                    <p>恭喜你答对了！</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-error show-box hide">
+                        <div class="dm">
+                            <div class="box">
+                                <img class='dm-img ani base64' imgBase64Id='q7e'  src="" alt="" animate-effect="fadeIn" animate-duration="1s" animate-delay="0s"> 
+                                <div class="think error ani" animate-effect="fadeInDown" animate-duration="1s" animate-delay="0.8s" >
+                                    <p>快走，它不是妈妈！</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-options">
+                    <ul>
+                        <li>
+                            <label for="">A</label>
+                            <span>灌篮高手</span>
+                        </li>
+                        <li>
+                            <label for="">B</label>
+                            <span>小蝌蚪找妈妈</span>
+                        </li>
+                        <li>
+                            <label for="">C</label>
+                            <span>熊出没</span>
+                        </li>
+                        <li>
+                            <label for="">D</label>
+                            <span>大头儿子小头爸爸</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 第八题 游戏-->
+            <div class="q q8 hide">
+                <div class="q-title">
+                    <div class="line per5"></div>
+                    <div class="line per20"></div>
+                    <h3>下图哪个游戏80后童年没有玩过?</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="q-show">
+                    <div class="q-show-normal show-box">
+                        <div class="game">
+                            <div class="box ani" animate-effect="fadeIn" animate-duration="2s" animate-delay="0.3s">
+                                <img class='game-img base64' imgBase64Id='q8n' src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-success show-box hide">
+                        <div class="game">
+                            <div class="box">
+                                <b class="star star1">星星</b>
+                                <b class="star star2">星星</b>
+                                <b class="star star3">星星</b>
+                                <img src="" imgBase64Id='q8n' alt=""  class='game-img ani base64' animate-effect="bounceIn" animate-duration="1s" animate-delay="0s">                               
+                                <div class="think ani" animate-effect="fadeInDown" animate-duration="1s" animate-delay="0.8s">
+                                    <p>恭喜你答对了！</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q-show-error show-box hide">
+                        <div class="game">
+                            <div class="box">
+                                 <img src="" imgBase64Id='q8e' alt=""  class='game-img ani base64' animate-effect="bounceIn" animate-duration="1s" animate-delay="0s"> 
+                                <div class="think error ani" animate-effect="fadeInDown" animate-duration="1s" animate-delay=".8s" >
+                                    <p>GAME OVER</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-options">
+                    <ul>
+                        <li>
+                            <label for="">A</label>
+                            <span>魂斗罗</span>
+                        </li>
+                        <li>
+                            <label for="">B</label>
+                            <span>俄罗斯方块</span>
+                        </li>
+                        <li>
+                            <label for="">C</label>
+                            <span>超级玛丽</span>
+                        </li>
+                        <li>
+                            <label for="">D</label>
+                            <span>王者农药</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 题目结束 -->
+        </div>
+        <div class="btn-area">
+            <a href="javascript:;" class='btn btn-next'>下一题</a>
+        </div>
+    </div>
+    <!-- 答题结果页 -->
+    <div class="page page-result hide" id='shareContxt'>
+        <div class="header">
+            <img class='base64' imgBase64Id='prh' src="" alt="">
+        </div>
+        <div class="container">
+            <div class="appraise">
+                <div class="face">
+                    <img class='head-img'  src="./images/face.png" alt="">
+                    <img class='m1 base64' imgBase64Id = 'my' src="" alt="">
+                    <img class='m2 base64' imgBase64Id = 'mb' src="" alt="">
+                </div>
+                <div class="title"><span class='nick-name'>长腿的猫</span><span>&nbsp;&nbsp;小朋友：</span></div>
+                <div class="info">
+                    <p>恭喜您答对了<span class='red' id='rightAnswerNumber'>0</span>道题</p>
+                    <p>根据您的表现特授予您</p>
+                    <h3 id='title'>10后正版儿童</h3>
+                    <p class='f30'>荣誉称号</p>
+                    <div class="btn-area">
+                        <a href="javascript:;" class='btn btn-get-subsidy'>领取大龄儿童补助</a>
+                    </div>
+                    <div class="btn-group">
+                        <a href="javascript:;" class='btn btn-show-answer'>偷看答案</a>
+                        <a href="javascript:;" class='btn btn-again'>再答一次</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 补助展示页 -->
+    <div class="page page-subsidy hide">
+        <div class="header">
+            <div class="line" style='width:5%'></div>
+            <div style='height:0;line-height:0'></div>
+            <div class="line"></div>
+            <h3>快来领取福利</h3>
+        </div>
+        <div class="container">
+            <div class="item item1">
+                <div class="img-box">
+                    <img class='base64' imgBase64Id='subsidy' src='' alt="">
+                </div>
+                <div class="btn-area">
+                    <a href="javascript:;" class='btn btn-get-200M'>立即领取</a>
+                </div>
+                <b class='star star1'></b>
+                <b class='star star2'></b>
+            </div>
+            <div class="item">
+                <div class="img-box">
+                    <img class='base64' imgBase64Id='club' src="" alt="">
+                </div>
+                <div class="btn-area">
+                    <a href="javascript:;" class='btn btn-show-club'>立即查看</a>
+                </div>
+                <img src="./images/m.png" alt="" class="culb-p">
+                <b class='star star1'></b>
+                <b class='star star2'></b>
+            </div>
+        </div>
+    </div>
+    <!-- 俱乐部介绍页 -->
+    <div class="page page-club hide">
+        <div class="header">
+            <h3>全球通俱乐部</h3>
+        </div>
+        <div class="container">
+            <p>全球通俱乐部祝所有大小宝宝、男女宝宝节日快乐！</p>
+            <p>童年的回忆总是美好的，爱在成长，我们也慢慢成熟，跌撞奔跑的路途中全球通俱乐部与您同在！</p>
+            <p>最温暖的亲情、最开心的亲子互动、最高端的商务体验、最优惠的一手资讯统统给您！</p>
+            <div class="join">
+                <p style='text-align:center;'>赶快发送短信“<input type="text" readonly value='JRHYQ'>”(长按复制)<br/>到10086加入我们吧。</p>
+            </div>
+        </div>
+        <div class="btn-area">
+            <a href="javascript:;" class='btn btn-back'>返回</a>
+            <a href="sms:10086" class='btn btn-join'>现在加入</a>
+        </div>
+    </div>
+    <!-- 活动规则页 -->
+    <div class="page page-rule hide">
+        <div class="header">
+            <h3 class='rule-title'>活动规则</h3>
+        </div>
+        <div class="rule-box">
+            <div class="item">
+                <ul>
+                    <li>
+                        <h3>活动时间：</h3>
+                        <p>2017年6月1日至6月11日（可领奖时间）</p>
+                    </li>
+                    <li>
+                        <h3>活动介绍：</h3>
+                        <p>活动期间，用户参与北京移动儿童节答题活动，答对6题以上即可获得200MB安心用本地通用流量，每个用户有一次免费答题机会，分享后解锁无限答题模式。</p>
+                    </li>
+                    <li>
+                        <h3>流量规则：</h3>
+                        <p>（1）活动奖品安心用200MB本地流量，仅限北京本地使用；</p>
+                        <p>（2）流量有效期至次月月底（领取后48小时内自动充入绑定手机号，充入后立即生效）；</p>
+                        <p>（3）获赠流量使用优先级低于主套餐及可选包；</p>
+                        <p>（4）用户领取的赠送流量无法共享，未使用的流量无法结转；</p>
+                        <p>（5）每个用户及每个手机号码仅限领取一次；（以微信ID为准）</p>
+                        <p>（6）处于停机、保号期手机号无法领取奖励；</p>
+                        <p>（7）获赠流量查询方法：进入北京移动10086微厅，点击“查询-套餐余量-活动赠送安心用本地通用流量”进行查询。</p>
+                        <p>（8）仅限关注绑定北京移动10086微信公众号的用户领取奖励。</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <a href="javascript:;" class='btn btn-rule-know'>我知道了</a>
+            </div>
+        </div>
+    </div>
+    <!-- 分享引导页 -->
+    <div class="page page-guide hide">
+        <img src="./images/guide.png" alt="">
+    </div>
+    <div class="btn-music-wrapper">
+        <a href="javascript:;" class='btn btn-music animate'>背景音乐按钮</a>
+    </div>
+    <audio class='hide' autoplay="autoplay" loop="loop" id="bgAudio" preload='auto' src='./audio/bg.mp3'></audio>
+    <audio class='hide' id="rightAudio" src='./audio/right.mp3' preload='auto'></audio>
+    <audio class='hide' id="wrongAudio" src='./audio/wrong.mp3' preload='auto'></audio>
+    <script>
+        app_config = {
+            mobileNo : '18018118232',//用户手机号
+            hasPrize : false, //是否已领取奖励,
+            isShare  : false  //是否已分享
+        }
+    </script>
+    <script src='./js/app.min.js'></script>
+</body>
+</html>
